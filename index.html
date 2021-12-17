@@ -7,18 +7,25 @@
     </head>
     <body>
         <div class="videoContent">
-            <video class="video">
+            <video class="video" width="320" height="176">
               <source src="hh.mp4" type="video/mp4">
             </video>
             <div class="parameters">
+                <div class="progressBar">
+                    <div class="progress"></div>
+                </div>
                 <button class="playButton" type="button" name="play" style="font-size:24px"><i class="fa fa-play"></i></button>
-                <input class="volume" type="range" name="volume">
-                <input class="progress" type="range" name="progress">
+                <input class="volume" type="range" name="volume" min="0" max="1" step="0.05"
+                 value="1">
+            
                 <button class="backwordButton" style="font-size:24px"> <i class="fa fa-backward"></i></button>
                 <button class="forwardButton" style="font-size:24px"> <i class="fa fa-forward"></i></button>  
  
             </div>
         </div>
+        <ul>
+        
+        </ul>
          <script src="appJs.js"></script>
     </body>
 </html>
