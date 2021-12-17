@@ -6,11 +6,15 @@ body{
 }
 
 .parameters{
+    margin-top: 10px;
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
     align-content: center;
     
+}
+.paramtr{
+    margin-top: 10px;
 }
 .progressBar {
   width: 80%;
@@ -24,4 +28,7 @@ body{
     background-color: aqua;
     width: 400px;
     flex: 0;
+}
+.forwardButton, .backwordButton{
+    float: right;
 }
